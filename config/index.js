@@ -93,14 +93,14 @@ module.exports = {
     button: {
       useFileName: true,
       name: "Resume",
-      fileName: "CV HAJID.pdf", // the file has to be placed inside the static folder at the root level
+      fileName: "cv_hajid.pdf", // the fi inille has to be placed inside the static folder at the root level
       url: "", // if useFileName=false, you can set an anchor link here and use the button for navigational purposes
     },
   },
   footerLinks: [
     {
       name: "Linkedin",
-      url: "https://www.linkedin.com/in/hajidalakhtar/"
-    }
+      url: "https://www.linkedin.com/in/hajidalakhtar/",
+    },
   ],
 }
