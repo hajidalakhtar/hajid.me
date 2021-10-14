@@ -297,7 +297,7 @@ const Projects = ({ content }) => {
                         </Underlining>
                       ))}
                     </div>
-                    <div className="links">
+                    {/* <div className="links">
                       {frontmatter.github && (
                         <a
                           href={frontmatter.github}
@@ -330,18 +330,21 @@ const Projects = ({ content }) => {
                                 : lightTheme.colors.subtext
                             }
                           />
+                          
                         </a>
                       )}
-                    </div>
+                    </div> */}
                   </div>
                   {/* If image in viewport changes, update state accordingly */}
                   <VisibilitySensor
                     onChange={() => setVisibleProject(frontmatter.position)}
                   >
-                    <Img
+
+                  <iframe width="560"  className="screenshot" height="225" src={frontmatter.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+                    {/* <Img
                       className="screenshot"
                       fluid={frontmatter.screenshot.childImageSharp.fluid}
-                    />
+                    /> */}
                   </VisibilitySensor>
                 </StyledProject>
               </VisibilitySensor>

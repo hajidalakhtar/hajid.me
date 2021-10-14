@@ -78,8 +78,8 @@ module.exports = {
   navLinks: {
     menu: [
       {
-        name: "Achivement",
-        url: "/#about",
+        name: "Blog",
+        url: "https://blog.hajid.me",
       },
       {
         name: "Features",
@@ -99,12 +99,8 @@ module.exports = {
   },
   footerLinks: [
     {
-      name: "Privacy",
-      url: "/privacy",
-    },
-    {
-      name: "Imprint",
-      url: "/imprint",
-    },
+      name: "Linkedin",
+      url: "https://www.linkedin.com/in/hajidalakhtar/"
+    }
   ],
 }
