@@ -82,7 +82,11 @@ module.exports = {
         url: "https://blog.hajid.me",
       },
       {
-        name: "Features",
+        name: "Skill",
+        url: "/#interests",
+      },
+      {
+        name: "Portfolio",
         url: "/#projects",
       },
       {

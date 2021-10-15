@@ -340,11 +340,11 @@ const Projects = ({ content }) => {
                     onChange={() => setVisibleProject(frontmatter.position)}
                   >
 
-                  <iframe width="560"  className="screenshot" height="225" src={frontmatter.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
-                    {/* <Img
-                      className="screenshot"
-                      fluid={frontmatter.screenshot.childImageSharp.fluid}
-                    /> */}
+                
+                  
+                  {frontmatter.title == "DotFountain" ? <Img  className="screenshot" fluid={frontmatter.screenshot.childImageSharp.fluid} /> :   <iframe width="560"  className="screenshot" height="225" src={frontmatter.video} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>}
+                   
+                    
                   </VisibilitySensor>
                 </StyledProject>
               </VisibilitySensor>
