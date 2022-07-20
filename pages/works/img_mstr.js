@@ -36,7 +36,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Python, OpenCV, MediaPipe</span>
+          <span>Python, Pillow, Flask</span>
         </ListItem>
         {/* <ListItem>
           <Meta>Blogpost</Meta>

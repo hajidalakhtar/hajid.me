@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/works.js"
     ],
-    "/works/docu_codes": [
+    "/works/img_mstr": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/docu_codes.js"
+      "static/chunks/pages/works/img_mstr.js"
     ]
   },
   "ampFirstPages": []

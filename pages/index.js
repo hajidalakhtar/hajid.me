@@ -79,7 +79,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          About Me
         </Heading>
         <Paragraph>
           Saya adalah Fullstack Developer, dengan pengalaman membangun berbagai
@@ -130,6 +130,13 @@ const Home = () => (
           <BioYear>2019</BioYear>
           JUARA SATU TEKNOLOGI TEPAT GUNA KOTA DEPOK
         </BioSection>
+        <Box align="right" my={1}>
+          <NextLink href="https://bit.ly/sertifikat-hajid" passHref scroll={false}>
+            <Button rightIcon={<ChevronRightIcon />} colorScheme="orange"  variant='ghost'>
+              My Certificate
+            </Button>
+          </NextLink>
+        </Box>
       </Section>
 
       <Section delay={0.3} >
@@ -155,16 +162,16 @@ const Home = () => (
           <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="blue">
             ReactJS
           </Badge>
-          <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="blue">
+          <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="green">
             VueJS
           </Badge>
           <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="yellow">
             HapiJS
           </Badge>
-          <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="yellow">
+          <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="green">
             MonggoDB
           </Badge>
-          <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="yellow">
+          <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="blue">
             MYSQL
           </Badge>
           {/* <GridItem w='100%' h='10' bg='blue.500' /> */}
