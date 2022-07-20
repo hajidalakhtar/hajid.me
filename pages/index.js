@@ -116,7 +116,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
-          JUARA BESAR EDUTECH CODING COMPETITION
+          JUARA 6 BESAR EDUTECH CODING COMPETITION
         </BioSection>
         <BioSection>
           <BioYear>2019</BioYear>
