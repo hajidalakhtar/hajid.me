@@ -4,37 +4,39 @@ import {
   // Link,
   List,
   ListItem,
-  AspectRatio
+  AspectRatio,
+  Link
 } from '@chakra-ui/react'
 // import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 const Work = () => (
   <Layout title="Inkdrop">
     <Container>
       <Title>
-        PENLINK <Badge>2019-</Badge>
+        IMG MSTR <Badge>2021-</Badge>
       </Title>
-      <P>
-        Website ini dibuat untuk menyingkat sebuah URL dan dapat digunakan juga
-        untuk mengabungkan berbagai macam URL kedalam satu URL saja
-      </P>
+      <P>Sebuah webstie untuk membantu mengedit gambar mengunaka URL</P>
       <List ml={4} my={4}>
-        {/* <ListItem>
+
+      <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://www.inkdrop.app/">
-            https://www.inkdrop.app/ <ExternalLinkIcon mx="2px" />
-          </Link>
-        </ListItem> */}
+          <span>
+            <Link href="https://github.com/hajidalakhtar/imgmstr" target="_blank">
+            https://github.com/hajidalakhtar/imgmstr <ExternalLinkIcon mx="2px" />
+            </Link>
+          </span>
+        </ListItem>
         <ListItem>
           <Meta>Platform</Meta>
           <span>Website</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Laravel, VueJs</span>
+          <span>Python, OpenCV, MediaPipe</span>
         </ListItem>
         {/* <ListItem>
           <Meta>Blogpost</Meta>
@@ -49,8 +51,8 @@ const Work = () => (
       <WorkImage src="/images/works/inkdrop_02.png" alt="Inkdrop" /> */}
       <AspectRatio maxW="640px" ratio={1.7} my={4}>
         <iframe
-          // https://www.youtube.com/watch?v=&ab_channel=HajidAlakhtar
-          src="https://www.youtube.com/embed/AAyQ4dhFt_k"
+        // https://www.youtube.com/watch?v=qWxxw5EG93M&ab_channel=HajidAlakhtar
+          src="https://www.youtube.com/embed/qWxxw5EG93M"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
