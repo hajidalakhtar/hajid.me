@@ -39,7 +39,19 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m Muhammad Hajid Al Akhtar!
+        {/* Selamat Datang */}
+        <Badge colorScheme='green'>New Project</Badge> &nbsp;
+        <Link href="https://bebasinfo.vercel.app/" target="_blank">
+        https://bebasinfo.vercel.app/
+              {/* <Button
+                variant="ghost"
+                colorScheme="teal"
+                // leftIcon={<IoLogoGithub />}
+              >
+                
+              </Button> */}
+            </Link>
+        {/* <a href='https://bebasinfo.vercel.app/'>https://bebasinfo.vercel.app/</a> */}
       </Box>
 
       <Box display={{ md: 'flex' }}>
