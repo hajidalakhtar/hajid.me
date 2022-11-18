@@ -11,7 +11,7 @@ import {
   ListItem,
   useColorModeValue,
   // chakra,
-  Badge,
+  Badge
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -19,7 +19,12 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 // import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub, IoLogoLinkedin } from 'react-icons/io5'
+import {
+  IoLogoTwitter,
+  IoLogoInstagram,
+  IoLogoGithub,
+  IoLogoLinkedin
+} from 'react-icons/io5'
 // import thumbYouTube from '../public/images/links/youtube.png'
 // import thumbInkdrop from '../public/images/works/inkdrop_eyecatch.png'
 // import Image from 'next/image'
@@ -40,17 +45,17 @@ const Home = () => (
         css={{ backdropFilter: 'blur(10px)' }}
       >
         {/* Selamat Datang */}
-        <Badge colorScheme='green'>New Project</Badge> &nbsp;
+        <Badge colorScheme="green">Winner</Badge> &nbsp;
         <Link href="https://bebasinfo.vercel.app/" target="_blank">
-        https://bebasinfo.vercel.app/
-              {/* <Button
+          https://bebasinfo.vercel.app/
+          {/* <Button
                 variant="ghost"
                 colorScheme="teal"
                 // leftIcon={<IoLogoGithub />}
               >
                 
               </Button> */}
-            </Link>
+        </Link>
         {/* <a href='https://bebasinfo.vercel.app/'>https://bebasinfo.vercel.app/</a> */}
       </Box>
 
@@ -111,7 +116,11 @@ const Home = () => (
         </Paragraph>
         <Box align="right" my={1}>
           <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="orange"  variant='ghost'>
+            <Button
+              rightIcon={<ChevronRightIcon />}
+              colorScheme="orange"
+              variant="ghost"
+            >
               My Portfolio
             </Button>
           </NextLink>
@@ -143,19 +152,27 @@ const Home = () => (
           JUARA SATU TEKNOLOGI TEPAT GUNA KOTA DEPOK
         </BioSection>
         <Box align="right" my={1}>
-          <NextLink href="https://bit.ly/sertifikat-hajid" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="orange"  variant='ghost'>
+          <NextLink
+            href="https://bit.ly/sertifikat-hajid"
+            passHref
+            scroll={false}
+          >
+            <Button
+              rightIcon={<ChevronRightIcon />}
+              colorScheme="orange"
+              variant="ghost"
+            >
               My Certificate
             </Button>
           </NextLink>
         </Box>
       </Section>
 
-      <Section delay={0.3} >
+      <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
           SKILL
         </Heading>
-        <SimpleGrid columns={{sm: 2, md: 4}}gap={2} >
+        <SimpleGrid columns={{ sm: 2, md: 4 }} gap={2}>
           <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="red">
             Laravel
           </Badge>
@@ -210,7 +227,7 @@ const Home = () => (
 
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-        Social Media
+          Social Media
         </Heading>
         <List>
           <ListItem>
@@ -236,7 +253,10 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.linkedin.com/in/hajidalakhtar/" target="_blank">
+            <Link
+              href="https://www.linkedin.com/in/hajidalakhtar/"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 colorScheme="teal"

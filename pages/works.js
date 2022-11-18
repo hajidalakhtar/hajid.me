@@ -7,6 +7,8 @@ import thumbGambarMenyenangkan from '../public/images/works/gambar_menyenangkan_
 import thumbPenlink from '../public/images/works/penlink_eyecatch.jpeg'
 import thumbDocuCodes from '../public/images/works/docucodes_eyecatch.png'
 import thumbImgMstr from '../public/images/works/imgmstr_eyecatch.png'
+import thumbBebasinfo from '../public/images/works/bebasinfo.png'
+
 // import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
 // import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 // import thumbStyly from '../public/images/works/styly_eyecatch.png'
@@ -31,13 +33,19 @@ const Works = () => (
             Amengambar yang lebih Menyenangkan dengan tangan
           </WorkGridItem>
         </Section>
-        <Section>
+        <Section delay={0.1}>
           <WorkGridItem
-            id="penlink"
-            title="PENLINK"
-            thumbnail={thumbPenlink}
+            id="bebasinfo"
+            thumbnail={thumbBebasinfo}
+            title="Bebasinfo"
           >
-            Menyingkat sebuah URL dan dapat digunakan juga untuk mengabungkan berbagai macam URL kedalam satu URL.
+            Membaca berita dari berbagai sumber
+          </WorkGridItem>
+        </Section>
+        <Section>
+          <WorkGridItem id="penlink" title="PENLINK" thumbnail={thumbPenlink}>
+            Menyingkat sebuah URL dan dapat digunakan juga untuk mengabungkan
+            berbagai macam URL kedalam satu URL.
             {/* Music recommendation app for iOS */}
           </WorkGridItem>
         </Section>
@@ -57,7 +65,7 @@ const Works = () => (
           </WorkGridItem>
         </Section>
       </SimpleGrid>
-{/* 
+      {/* 
       <Section delay={0.2}>
         <Divider my={6} />
 
@@ -65,7 +73,7 @@ const Works = () => (
           Collaborations
         </Heading>
       </Section> */}
-{/* 
+      {/* 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem id="margelo" thumbnail={thumbMargelo} title="Margelo">

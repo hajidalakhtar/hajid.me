@@ -30,10 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/works/gambar_menyenangkan": [
+    "/works": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/works/gambar_menyenangkan.js"
+      "static/chunks/pages/works.js"
+    ],
+    "/works/bebasinfo": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/works/bebasinfo.js"
     ]
   },
   "ampFirstPages": []
