@@ -169,13 +169,13 @@ const Home = () => (
             ExpressJS
           </Badge>
           <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="yellow">
-            Python
+            Golang
           </Badge>
           <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="blue">
             ReactJS
           </Badge>
           <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="green">
-            VueJS
+            Fiber
           </Badge>
           <Badge p={1} pl={3} pr={3} fontSize="0.8em" colorScheme="yellow">
             HapiJS
