@@ -7,6 +7,7 @@ import thumbGambarMenyenangkan from '../public/images/works/gambar_menyenangkan_
 import thumbPenlink from '../public/images/works/penlink_eyecatch.jpeg'
 import thumbDocuCodes from '../public/images/works/docucodes_eyecatch.png'
 import thumbImgMstr from '../public/images/works/imgmstr_eyecatch.png'
+import thumbImgBebasinfo from '../public/images/works/bebasinfo.jpg'
 // import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
 // import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 // import thumbStyly from '../public/images/works/styly_eyecatch.png'
@@ -31,17 +32,16 @@ const Works = () => (
             Amengambar yang lebih Menyenangkan dengan tangan
           </WorkGridItem>
         </Section>
-        <Section>
+        <Section delay={0.1}>
           <WorkGridItem
-            id="penlink"
-            title="PENLINK"
-            thumbnail={thumbPenlink}
+            id="bebasinfo"
+            title="Bebasinfo"
+            thumbnail={thumbImgBebasinfo}
           >
-            Menyingkat sebuah URL dan dapat digunakan juga untuk mengabungkan berbagai macam URL kedalam satu URL.
-            {/* Music recommendation app for iOS */}
+            News Rss Reader 
           </WorkGridItem>
         </Section>
-
+        
         <Section delay={0.1}>
           <WorkGridItem
             id="docu_codes"
@@ -56,7 +56,22 @@ const Works = () => (
             Sebuah webstie untuk membantu mengedit gambar mengunaka URL
           </WorkGridItem>
         </Section>
+
+        <Section>
+          <WorkGridItem
+            id="penlink"
+            title="PENLINK"
+            thumbnail={thumbPenlink}
+          >
+            Menyingkat sebuah URL dan dapat digunakan juga untuk mengabungkan berbagai macam URL kedalam satu URL.
+            {/* Music recommendation app for iOS */}
+          </WorkGridItem>
+        </Section>
+
+       
       </SimpleGrid>
+
+    
 {/* 
       <Section delay={0.2}>
         <Divider my={6} />
