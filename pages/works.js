@@ -8,6 +8,7 @@ import thumbPenlink from '../public/images/works/penlink_eyecatch.jpeg'
 import thumbDocuCodes from '../public/images/works/docucodes_eyecatch.png'
 import thumbImgMstr from '../public/images/works/imgmstr_eyecatch.png'
 import thumbImgBebasinfo from '../public/images/works/bebasinfo.jpg'
+import thumbImgReqHttp from '../public/images/works/reqhttp.png'
 // import thumbMargelo from '../public/images/works/margelo_eyecatch.png'
 // import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 // import thumbStyly from '../public/images/works/styly_eyecatch.png'
@@ -41,7 +42,13 @@ const Works = () => (
             News Rss Reader 
           </WorkGridItem>
         </Section>
-        
+
+        <Section delay={0.1}>
+          <WorkGridItem id="reqhttp" thumbnail={thumbImgReqHttp} title="ReqHTTP">
+          ReqHttp adalah sebuah perangkat lunak yang dapat digunakan untuk membuat permintaan HTTP melalui command line interface (CLI).
+          </WorkGridItem>
+        </Section>
+
         <Section delay={0.1}>
           <WorkGridItem
             id="docu_codes"

@@ -34,7 +34,7 @@ const Work = () => (
         <ListItem>
           <Meta>Website</Meta>
           <span>
-            <Link href="bebasinfo.vercel.app" target="_blank">
+            <Link href="https://bebasinfo.vercel.app" target="_blank">
             bebasinfo.vercel.app <ExternalLinkIcon mx="2px" />
             </Link>
           </span>
